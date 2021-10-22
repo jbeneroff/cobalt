@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <Route path='/'>
+        {/* <Route path='/'>
           <MainContainer />
-        </Route>
+        </Route> */}
       </Layout>
     </div>
   )
