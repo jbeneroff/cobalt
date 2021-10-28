@@ -32,6 +32,11 @@
 }
 
 .nav-item {
-  padding: 5px 2px;
+  margin: 2px;
+  /* padding: 5px 2px; */
   text-decoration: none;
+}
+
+.w-btn {
+  margin-bottom: 2px;
 }
