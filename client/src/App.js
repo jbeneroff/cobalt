@@ -1,5 +1,5 @@
-import { Route } from 'react-router-dom'
-import MainContainer from './components/MainContainer'
+// import { Route } from 'react-router-dom'
+// import MainContainer from './components/MainContainer'
 import Layout from './components/Layout'
 import './App.css'
 
@@ -10,6 +10,7 @@ function App() {
         {/* <Route path='/'>
           <MainContainer />
         </Route> */}
+        <p id='description'>Insert description here.</p>
       </Layout>
     </div>
   )

@@ -5,13 +5,13 @@ export default function Header() {
     <div className='header'>
       <div>
         <h1 id='name'>Cobalt (CBLT)</h1>
+        <h3 id='token'>A Binance Smart Chain Token</h3>
       </div>
-      {/* <div className='nav'>
-        <a className='nav-item' id='about-nav' href='#about-link'>About</a>
-        <a className='nav-item' id='projects-nav' href='#projects-link'>Projects</a>
-        <a className='nav-item' id='skills-nav' href='#skills-link'>Skills</a>
-        <a className='nav-item' id='contanct-nav' href='#contact-link'>Contact</a>
-      </div> */}
+      <div className='nav'>
+        <a className='nav-item' href="">Cobalt Cat NFTs</a>
+        <a className='nav-item' href="">Buy CBLT on PancakeSwap</a>
+        <a className='nav-item' id='contact-nav' href='#contact-link'>Contact Us</a>
+      </div>
     </div>
   )
 }
