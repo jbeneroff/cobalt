@@ -1,5 +1,8 @@
+import { Switch, Route, useHistory } from 'react-router-dom'
+import MainContainer from './containers/MainContainer'
+import Layout from './layouts/Layout'
 import { Button } from 'uiw';
-import logo from './logo.png';
+import logo from '../assets/logo.png';
 import styles from './App.module.css';
 import './App.css';
 
