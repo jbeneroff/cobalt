@@ -6,6 +6,5 @@
 
 main {
   flex: 1;
-  /* background-color: #2c9ad5; */
-  padding-bottom: 40px;
+  padding: 100px 20px 40px 20px;
 }

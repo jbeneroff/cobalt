@@ -1,8 +1,8 @@
 import { Switch, Route, useHistory } from 'react-router-dom'
-import MainContainer from './containers/MainContainer'
+// import MainContainer from './containers/MainContainer'
 import Layout from './layouts/Layout'
 import { Button } from 'uiw';
-import logo from '../assets/logo.png';
+import logo from './assets/logo.png';
 import styles from './App.module.css';
 import './App.css';
 
@@ -10,6 +10,7 @@ import './App.css';
 const App = () => (
   <div className="App">
     <header className="App-header">
+    <Layout> 
       <img src={logo} className="App-logo" alt="logo" /><div>
         <h1 id='name'>Cobalt (CBLT)</h1>
         <h3 id='token'>A Binance Smart Chain Token</h3>
@@ -36,6 +37,7 @@ const App = () => (
         <h4>Contact Us</h4>
         <p>admin@cbltcoin.com</p>
       </div>
+      </Layout> 
     </header>
   </div>
 );
