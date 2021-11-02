@@ -20,13 +20,13 @@ export default function Home() {
           <Button type="primary">Cobalt Cat NFTs</Button>
         </Link>
         <a className='nav-item' href='https://pancakeswap.finance/swap'>
-          <Button type="success">PancakeSwap</Button>
+          <Button type="primary">PancakeSwap</Button>
         </a>
-        <Link to='/about'>
-          <Button type="light">About CBLT</Button>
+        <Link to='/about' className='nav-item'>
+          <Button type="primary">About CBLT</Button>
         </Link>
-        <Link to='/contact'>
-          <Button type="dark">Social & Contact</Button>
+        <Link to='/contact' className='nav-item'>
+          <Button type="primary">Social & Contact</Button>
         </Link>
       </div>
     </div>

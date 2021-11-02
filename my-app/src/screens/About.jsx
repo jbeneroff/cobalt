@@ -1,4 +1,5 @@
 import whitepaper from '../assets/Cobalt_white_paper.pdf'
+import './About.css'
 
 export default function About() {
   return (
