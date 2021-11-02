@@ -15,16 +15,18 @@ export default function Home() {
         <p id='info'>Cobalt is an animal-themed currency built on the Binance Smart Chain for the benefits of instantaneous transaction speed, and bridging capabilities across various dApps and networks. It’s sole purpose is to be a rigid store of value (SoV) digital asset with the goal of defeating DOGE and Shiba Inu.</p>
       </div>
       <div className={styles.btns}>
+        <Link to ='/NFT' className='nav-item'>
+          <Button type="primary">Cobalt Cat NFTs</Button>
+        </Link>
         <a className='nav-item' href='https://pancakeswap.finance/swap'>
           <Button type="success">PancakeSwap</Button>
         </a>
         <Link to='/about'>
           <Button type="light">About CBLT</Button>
         </Link>
-      </div>
-      <div>
-        <h4>Contact Us</h4>
-        <p>admin@cbltcoin.com</p>
+        <Link to='/contact'>
+          <Button type="dark">Contact Us</Button>
+        </Link>
       </div>
     </div>
   )
