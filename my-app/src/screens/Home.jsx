@@ -25,7 +25,7 @@ export default function Home() {
           <Button type="light">About CBLT</Button>
         </Link>
         <Link to='/contact'>
-          <Button type="dark">Contact Us</Button>
+          <Button type="dark">Social & Contact</Button>
         </Link>
       </div>
     </div>
