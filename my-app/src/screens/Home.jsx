@@ -13,6 +13,7 @@ export default function Home() {
       <div>
         <h1 id='name'>Cobalt (CBLT)</h1>
         <h3 id='token'>A Binance Smart Chain Token</h3>
+        <h5>Contract Address: 0x599a2070482CA75e5F76B5F3c94A6dc08bdEC6F3</h5>
         <p id='info'>Cobalt is an animal-themed token built on the Binance Smart Chain for the benefits of near instantaneous transaction speed, and bridging capabilities across various dApps and networks. It’s sole purpose is to be a rigid store of value (SoV) digital asset with the goal of defeating DOGE and Shiba Inu.</p>
       </div>
       <div className={styles.btns}>
