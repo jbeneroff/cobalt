@@ -1,9 +1,16 @@
 import whitepaper from '../assets/Cobalt_white_paper.pdf'
+import { Link } from 'react-router-dom'
 import './About.css'
+import logo from '../assets/logo.png';
 
 export default function About() {
   return (
     <div>
+      <div>
+        <Link to='/'> 
+          <img src={logo} className="logo" alt="logo" />
+        </Link>
+      </div>
       <h2 id='about-header'>About Cobalt (CBLT)</h2>
       <a id='white-paper' href={whitepaper} >
         <button>View the Cobalt White Paper</button>

@@ -1,9 +1,16 @@
 import { Button } from 'uiw';
+import { Link } from 'react-router-dom'
 import './NFT.css'
+import logo from '../assets/logo.png';
 
 export default function NFT() {
   return (
     <div>
+      <div>
+        <Link to='/'> 
+          <img src={logo} className="logo" alt="logo" />
+        </Link>
+      </div>
       <h2>The Cobalt Cat NFT Collection</h2>
       {/* <a className='nav-item' href='https://www.cbltmint.com'>
         <Button type="primary">Mint Cobalt Cat NFTs</Button>
