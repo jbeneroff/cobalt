@@ -1,3 +1,15 @@
+#address {
+  margin: 5px;
+}
+
+#wallet {
+  margin: 5px;
+}
+
+#token {
+  margin: 5px;
+}
+
 #info {
-  /* font-family: "Roboto", sans-serif; */
+  margin: 20px;
 }
