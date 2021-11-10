@@ -18,9 +18,9 @@ export default function Home() {
         <p id='info'>Cobalt is an cat-themed token built on the Binance Smart Chain for the benefits of near instantaneous transaction speed, and bridging capabilities across various dApps and networks. Its purpose is to be a rigid Store of Value (SoV) digital asset.</p>
       </div>
       <div className={styles.btns}>
-        <Link to ='/NFT' className='nav-item'>
+        {/* <Link to ='/NFT' className='nav-item'>
           <Button type="primary">Cobalt Cat NFTs</Button>
-        </Link>
+        </Link> */}
         <a className='nav-item' href='https://pancakeswap.finance/swap'>
           <Button type="primary">PancakeSwap</Button>
         </a>

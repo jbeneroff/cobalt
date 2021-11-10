@@ -13,16 +13,16 @@ export default function Contact() {
       <h2>Join the Discussion</h2>
       <p id='contact-info'>We believe staying anonymous will help the progression of the various products in the pipeline and the overall distribution of our awareness. However we don’t want to totally cut ourselves off from our community and curious cats around the world. We have many ways to be reached!</p>
       <div className='socials'>
-        <a id='twitter' href="">
+        <a id='twitter' href="https://twitter.com/CBLTcoin">
           <button className='social-btn'>Twitter</button>
         </a>
-        <a id='insta' href="">
+        <a id='insta' href="https://www.instagram.com/cbltcoin/">
           <button className='social-btn'>Instagram</button>
         </a>
-        <a id='discord' href="">
+        <a id='discord' href="https://discord.gg/FwJ5Xkfj">
           <button className='social-btn'>Discord</button>
         </a>
-        <a id='reddit' href="">
+        <a id='reddit' href="https://www.reddit.com/r/cblt">
           <button className='social-btn'>Reddit</button>
         </a>
       </div>

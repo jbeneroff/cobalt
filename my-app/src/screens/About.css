@@ -7,7 +7,8 @@
 #white-paper-btn {
   background-color: rgb(50, 132, 255);
   color: white;
-  border: 1px solid white;
+  border: 1px solid rgb(50, 132, 255);
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 18px;
+  padding: 4px;
 }
