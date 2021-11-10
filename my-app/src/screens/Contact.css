@@ -23,4 +23,10 @@
   font-size: 16px;
   padding: 4px 6px;
   margin: 2px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.social-btn:hover {
+  background-color: rgb(112, 169, 254);
 }

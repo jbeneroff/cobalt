@@ -11,4 +11,10 @@
   border-radius: 4px;
   font-size: 18px;
   padding: 4px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#white-paper-btn:hover {
+  background-color: rgb(112, 169, 254);
 }
