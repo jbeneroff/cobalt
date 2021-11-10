@@ -14,27 +14,27 @@ export default function Contact() {
       <p id='contact-info'>We believe staying anonymous will help the progression of the various products in the pipeline and the overall distribution of our awareness. However we don’t want to totally cut ourselves off from our community and curious cats around the world. We have many ways to be reached!</p>
       <div className='socials'>
         <a id='twitter' href="">
-          <button>Twitter</button>
+          <button className='social-btn'>Twitter</button>
         </a>
         <a id='insta' href="">
-          <button>Instagram</button>
+          <button className='social-btn'>Instagram</button>
         </a>
         <a id='discord' href="">
-          <button>Discord</button>
+          <button className='social-btn'>Discord</button>
         </a>
         <a id='reddit' href="">
-          <button>Reddit</button>
+          <button className='social-btn'>Reddit</button>
         </a>
       </div>
-      <h3>Get in Touch with the Developer</h3>
+      <h3 id='touch'>Get in Touch with the Developer</h3>
       <div className='contact'>
-        <h4>Founder and Lead Developer:  Jared Beneroff</h4>
+        <h4 id='name'>Founder and Lead Developer:  Jared Beneroff</h4>
         <p id='email'>Email:  admin@cbltcoin.com</p>
         <a id='linkedin' href="https://www.linkedin.com/in/jared-beneroff/">
-          <button>LinkedIn</button>
+          <button className='social-btn'>LinkedIn</button>
         </a>
         <a id='github' href="https://github.com/jbeneroff">
-          <button>Github</button>
+          <button className='social-btn'>Github</button>
         </a>
       </div>
     </div>
