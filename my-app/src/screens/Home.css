@@ -28,7 +28,6 @@
   #name,
   #token,
   #address,
-  #wallet,
   #info {
     margin: 16px 0px;
     font-size: smaller;
@@ -36,5 +35,14 @@
   #address {
     font-weight: 400;
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .add-wallet {
+    flex-direction: column;
+  }
+  #wallet {
+    margin: 5px 0px 0px 0px;
   }
 }
