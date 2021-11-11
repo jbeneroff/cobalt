@@ -10,7 +10,7 @@ export default function Home() {
       <div>
         <img src={logo} className="App-logo" alt="logo" />
       </div>
-      <div>
+      <div className='home-text'>
         <h1 id='name'>Cobalt (CBLT)</h1>
         <h3 id='token'>A Binance Smart Chain Token</h3>
         <h5 id='address'>Contract Address: 0x599a2070482CA75e5F76B5F3c94A6dc08bdEC6F3</h5>

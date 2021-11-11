@@ -28,7 +28,7 @@ export default function Contact() {
       </div>
       <h3 id='touch'>Get in Touch with the Developer</h3>
       <div className='contact'>
-        <h4 id='name'>Founder and Lead Developer:  Jared Beneroff</h4>
+        <h4 id='my-name'>Founder and Lead Developer:  Jared Beneroff</h4>
         <p id='email'>Email:  admin@cbltcoin.com</p>
         <a className='social-btn' id='linkedin' href="https://www.linkedin.com/in/jared-beneroff/">
           LinkedIn

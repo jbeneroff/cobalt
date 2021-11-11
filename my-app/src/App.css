@@ -33,14 +33,9 @@
 
 .nav-item {
   margin: 2px;
-  /* padding: 5px 2px; */
   text-decoration: none;
 }
 
 .w-btn {
-  margin-bottom: 2px;
-}
-
-#info {
-  margin: 10px 20px;
+  margin-bottom: 5px;
 }
