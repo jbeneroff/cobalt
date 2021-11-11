@@ -1,13 +1,13 @@
 #address {
-  margin: 5px;
+  margin: 10px;
 }
 
 #wallet {
-  margin: 5px;
+  margin: 10px;
 }
 
 #token {
-  margin: 5px;
+  margin: 10px;
 }
 
 #info {
@@ -22,5 +22,9 @@
   #info {
     margin: 16px 0px;
     font-size: smaller;
+  }
+  #address {
+    font-weight: 400;
+    font-size: 10px;
   }
 }
