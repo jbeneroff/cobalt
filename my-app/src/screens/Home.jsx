@@ -23,7 +23,8 @@ export default function Home() {
         </div>
         <p id='info'>Cobalt (CBLT) is a cat-themed BEP-20 token built on the Binance Smart Chain for the benefit of near instantaneous transaction speed.
           Its purpose is to be a rigid Store of Value (SoV) digital asset. The total supply of CBLT is 1 Billion tokens.
-          These will be gradually introduced to the market as the development team uses them to expand the Cobalt ecosystem.</p>
+          These will be gradually introduced to the market as the development team uses them to expand the Cobalt ecosystem.
+          A portion of all proceeds will be donated to various animal shelters.</p>
       </div>
       <div className={styles.btns}>
         {/* <Link to ='/NFT' className='nav-item'>
